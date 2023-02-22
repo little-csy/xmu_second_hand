@@ -1,0 +1,34 @@
+<view class="top-bg"></view>
+<view class="contain">
+	<view class="card">
+		<view class="title">登记注册</view>
+		<picker bindchange="choose" value="{{ids}}" range="{{campus}}" range-key="name">
+			<view class="campus">
+				<block wx:if="{{ids!==-1}}">当前选择：{{campus[ids].name}}</block>
+				<block wx:if="{{ids==-1}}">请选择您所在校区</block>
+				<image class="right" src="/images/right.jpg" />
+			</view>
+		</picker>
+		<view class="contact">
+			<input bindinput="emInput" value="{{email}}" maxlength="30" placeholder-class="pache" placeholder="输入您的邮箱地址" />
+		</view>
+		<view class="contact">
+			<input bindinput="wxInput" value="{{wxnum}}" maxlength="30" placeholder-class="pache" placeholder="输入您的手机号" />
+		</view>
+		<view class="contact">
+			<input type="number" bindinput="qqInput" value="{{qqnum}}" maxlength="20" placeholder-class="pache" placeholder="输入您的密码" />
+		</view>
+	</view>
+      <van-divider />
+	<van-checkbox value="{{ checked }}" checked-color="#87CEFA" bind:change="onChange">
+		订阅订单信息
+	</van-checkbox>
+	<!--底部确认-->
+	<button class="confirm" open-type='getUserInfo' bindgetuserinfo="getUserInfo">注册并登录</button>
+	<view class="shen_title">
+            <image class="about" src="/images/about.jpg" />隐私政策
+      </view>
+      <view class="des">1. 本程序需要注册的信息只为保证小程序的正常使用，不会额外获取您的其他个人信息。</view>
+      <view class="des">2. 在未经您同意及确认之前，本程序不会将您的注册信息用于任何其它商业目的。</view>
+      <view class="des">3. 本程序将对您所提供的资料进行严格的管理及保护，本程序将使用相应的技术，防止您的个人资料丢失、被盗用或遭篡改。</view>
+</view>

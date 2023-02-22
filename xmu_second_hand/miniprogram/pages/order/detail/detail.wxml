@@ -1,0 +1,56 @@
+<view class="contain">
+	<view class="card">
+		<view class="goods_box">
+			<image class="goods_img" src="{{detail.bookinfo.pic[0]}}"></image>
+			<view class="goods_content">
+				<view class="goods_title text-cut">{{detail.bookinfo.good}}</view>
+				<view class="goods_author text-cut">卖家：{{userinfo.nickname}}</view>
+			</view>
+			<view class="goods_price">￥{{detail.price}}元</view>
+		</view>
+		<view class="border"></view>
+		<view class="list">
+			<view class="list_1">{{detail.deliveryid==0?'需要自提':'卖家帮送'}}</view>
+			<view class="list_2">
+				地址：{{detail.deliveryid==0?detail.ztplace:detail.psplace}}
+			</view>
+		</view>
+		<view class="border"></view>
+		<view class="list">
+			<view class="list_1">
+				{{detail.status==1?'等待收货中':(detail.status==2?'交易完成':'订单已取消')}}
+			</view>
+			<view class="list_2">
+				{{detail.status==1?'系统已通知卖家准备':(detail.status==2?'要不再来一单':'祝您生活愉快')}}
+			</view>
+		</view>
+		<view class="border"></view>
+		<view class="orderfare">ORDER FARE</view>
+		<view class="fare_box">
+			<view class="fare_title">下单时间</view>
+			<view class="fare_des">{{creatTime}}</view>
+		</view>
+		<view class="fare_box">
+			<view class="fare_title">支付金额</view>
+			<view class="fare_des">￥{{detail.price}}.00元</view>
+		</view>
+		<view class="border"></view>
+		<view class="orderfare">CONTACT SELLER</view>
+		
+
+		<view class="border"></view>
+		<view class="bot_box" wx:if="{{detail.status==1}}">
+			<view class="contact" bindtap="confirm">确认收货</view>
+		</view>
+		<view class="bot_box" wx:if="{{detail.status==5}}">
+			<view class="contact">等待卖家确认交易</view>
+		</view>
+		<view class="bot_box">
+			<view wx:if="{{detail.status==2||detail.status==3}}" class="delete" bindtap="delete">
+				删除订单
+			</view>
+		</view>
+	
+	</view>
+</view>
+

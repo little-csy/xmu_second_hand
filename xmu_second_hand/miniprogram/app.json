@@ -1,0 +1,71 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/start/start",
+    "pages/index/index",
+    "pages/login/login",
+    "pages/publish/publish",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/order/list/list",
+    "pages/order/detail/detail",
+    "pages/kefu/kefu",
+    "pages/about/about",
+    "pages/sell/list/list",
+    "pages/sell/detail/detail",
+    "pages/search/search",
+    "pages/edit/edit",
+    "pages/web/web",
+    "pages/use/use",
+    "pages/help/help"
+  ],
+  "window": {
+    "backgroundColor": "#87CEFA",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "厦大二手交易平台",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#000000",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/tabbar/home_on.jpg",
+        "selectedIconPath": "/images/tabbar/home.jpg"
+      },
+      {
+        "pagePath": "pages/publish/publish",
+        "text": "发布",
+        "iconPath": "/images/tabbar/publish.jpg",
+        "selectedIconPath": "/images/tabbar/publish_on.jpg"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "/images/tabbar/my.jpg",
+        "selectedIconPath": "/images/tabbar/my_on.jpg"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-steps": "/vant/steps/index",
+    "van-transition": "/vant/transition/index",
+    "van-stepper": "/vant/stepper/index",
+    "van-action-sheet": "/vant/action-sheet/index",
+    "van-popup": "/vant/popup/index",
+
+    
+    "van-dialog": "/vant/dialog/index",
+    "van-button": "/vant/button/index",
+    "van-picker": "/vant/picker/index",
+    "van-icon": "/vant/icon/index",
+    "van-uploader": "/vant/uploader/index",
+    "van-checkbox": "/vant/checkbox/index",
+    "van-checkbox-group": "/vant/checkbox-group/index",
+    "van-divider": "/vant/divider/index",
+    "van-notice-bar": "vant/notice-bar/index"
+  }
+}
