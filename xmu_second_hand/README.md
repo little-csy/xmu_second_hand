@@ -4,8 +4,7 @@
 
 #### 1、开通云环境，上传云函数并下载依赖
 #### 2、把配置文件和云函数中的云环境id换成自己的env
-#### 3、数据库创建banner和start字段并写入图片路径
-#### 4、客服和消息订阅在微信公众平台进行配置
+#### 3、客服和消息订阅在微信公众平台进行配置
 
 ### 功能
 
@@ -26,6 +25,15 @@
 
 
 ### （3月9日）因为微信云服务免费额度取消，本服务器资源可能被释放
+### 预览图
+![image](https://user-images.githubusercontent.com/73229305/220561260-2a24b5d7-56a0-4226-b919-b4b9843e8647.png)
+![image](https://user-images.githubusercontent.com/73229305/220561303-ac292276-6652-457c-813e-e2a870d506a7.png)
+![image](https://user-images.githubusercontent.com/73229305/220561344-bd24c170-0c18-4349-91e1-316fd291de72.png)
+![image](https://user-images.githubusercontent.com/73229305/220561361-07ceafcd-e5d0-43ee-8c7a-339d04adcb8d.png)
+![image](https://user-images.githubusercontent.com/73229305/220561383-9eea2f05-9b72-4563-a264-cae4f310f54a.png)
+![image](https://user-images.githubusercontent.com/73229305/220561433-abfe11e6-6af3-4730-bb8d-7fb537b8395e.png)
+![image](https://user-images.githubusercontent.com/73229305/220561511-378cfe92-210f-4776-a5df-67a53b55da58.png)
+
 
 
 
