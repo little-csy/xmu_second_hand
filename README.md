@@ -1,30 +1,31 @@
-# xmu_second_hand
-## 基于微信小程序云开发的校园二手交易平台
+# XMU Campus Second-Hand Marketplace
+## Campus Second-Hand Trading Platform Based on WeChat Mini Program Cloud Development
 
-### 使用说明
+### Usage Instructions
 
-#### 1、开通云环境，上传云函数并下载依赖
-#### 2、把配置文件和云函数中的云环境id换成自己的env
-#### 3、客服和消息订阅在微信公众平台进行配置
+#### 1. Enable the cloud environment, upload cloud functions, and install dependencies
+#### 2. Replace the cloud environment ID (env) in the configuration files and cloud functions with your own
+#### 3. Configure customer service and message subscriptions in the WeChat Official Platform
 
-### 功能
+### Features
 
-**（1）登陆注册**：在小程序个人主页点击登录或注册，填写相关信息，即可登录或注册，拥有个人账号进行买卖操作。后续也可以修改用户资料。
+**（1）User Login & Registration**：Users can log in or register from the personal profile page of the Mini Program by filling in the required information. After registration, users can manage their personal accounts for buying and selling. User profile information can be updated at any time.
 
-**（2）出售商品**：在小程序发布页面，上传商品图片，填写商品各种详细即可发布商品。在个人主页的发布信息中即可查看商品交易信息，可以删除订单，重新上架商品，删除商品。
+**（2）Sell Products**：On the product publishing page, users can upload product images and fill in detailed information to list items for sale. Posted items and transaction details can be viewed on the personal profile page. Users can delete orders, relist items, or remove products as needed.
 
-**（3）浏览商品**：商城主页，用户可以通过分类查看各个商品信息，也可以搜索商品名，得到筛选后的商品。点击商品进入商品详情页，可查看商品详细信息。
+**（3）Browse Products**：On the marketplace homepage, users can browse products by category or search by product name. Clicking on a product opens the detail page, where full product information is displayed.
 
-**（4）购买商品**：在商品详情页，买家可点击立即购买，预定这个商品，可在个人主页的购买信息中查看自己的购买记录，也可以在放弃购买时删除该订单，或在收到商品交易达成后，点击确认收货。交易完成。
+**（4）Purchase Products**：On the product detail page, buyers can click Buy Now to reserve an item. Purchase records can be viewed on the personal profile page. Buyers may cancel an order before completion or confirm receipt after the transaction is completed to finalize the purchase.
 
-**（5）联系客服**：可以在我的页面联系客服进行询问和反馈。
+**（5）Contact Customer Support**：Users can contact customer support from the My Page for inquiries and feedback.
 
-### 小程序已发布体验版可以扫码查看效果
+### Mini Program Preview
+The Mini Program has been released as a preview version. You can scan the QR code below to experience the application.
 ![NH$$79R`DAH$SLLEU G)LG8](https://user-images.githubusercontent.com/73229305/220560712-ab70704a-e141-4666-a278-dd7e4a55626a.jpg)
 
 
-### （3月9日）因为微信云服务免费额度取消，本服务器资源可能被释放
-### 预览图
+### (March 9) Notice Due to the cancellation of WeChat Cloud Service free quotas, the server resources for this project may be released.
+### Screenshots
 ![image](https://user-images.githubusercontent.com/73229305/220561260-2a24b5d7-56a0-4226-b919-b4b9843e8647.png)
 
 ![image](https://user-images.githubusercontent.com/73229305/220561303-ac292276-6652-457c-813e-e2a870d506a7.png)
