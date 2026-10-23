@@ -35,22 +35,38 @@ Publish item → Buyer reserves → Arrange exchange → Confirm receipt → Sel
 
 The original demo used a temporary cloud environment scheduled to expire on **March 7, 2023**. Running the project requires a configured WeChat Mini Program and cloud environment.
 
+## Screenshots
 
-### (March 9) Notice Due to the cancellation of WeChat Cloud Service free quotas, the server resources for this project may be released.
-### Screenshots
-![image](https://user-images.githubusercontent.com/73229305/220561260-2a24b5d7-56a0-4226-b919-b4b9843e8647.png)
-
-![image](https://user-images.githubusercontent.com/73229305/220561303-ac292276-6652-457c-813e-e2a870d506a7.png)
-
-![image](https://user-images.githubusercontent.com/73229305/220561344-bd24c170-0c18-4349-91e1-316fd291de72.png)
-
-![image](https://user-images.githubusercontent.com/73229305/220561361-07ceafcd-e5d0-43ee-8c7a-339d04adcb8d.png)
-
-![image](https://user-images.githubusercontent.com/73229305/220561383-9eea2f05-9b72-4563-a264-cae4f310f54a.png)
-
-![image](https://user-images.githubusercontent.com/73229305/220561433-abfe11e6-6af3-4730-bb8d-7fb537b8395e.png)
-
-![image](https://user-images.githubusercontent.com/73229305/220561511-378cfe92-210f-4776-a5df-67a53b55da58.png)
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img width="250" alt="Marketplace Home" src="https://github.com/user-attachments/assets/a2f826d6-120c-42d6-919a-fb85f6e6b6a5" />
+      <br />Marketplace Home
+    </td>
+    <td align="center" width="33%">
+      <img width="250" alt="Publish Item" src="https://github.com/user-attachments/assets/3681c888-c10c-4505-a7ba-98af418de6ec" />
+      <br />Publish Item
+    </td>
+    <td align="center" width="33%">
+      <img width="250" alt="Publish Success" src="https://github.com/user-attachments/assets/70b34b44-3048-4389-bb5e-262e50af84c0" />
+      <br />Publish Success
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <img width="250" alt="My Listings" src="https://github.com/user-attachments/assets/bf509cdd-d811-4029-b0de-4a1df536b700" />
+      <br />My Listings
+    </td>
+    <td align="center" width="33%">
+      <img width="250" alt="Order Details" src="https://github.com/user-attachments/assets/cd412ee4-c618-4932-a5e0-89c5824a776d" />
+      <br />Order Details
+    </td>
+    <td align="center" width="33%">
+      <img width="250" alt="Reservation Notification" src="https://github.com/user-attachments/assets/ad3d3dd0-0033-4002-8e4e-8287659bce31" />
+      <br />Reservation Notification
+    </td>
+  </tr>
+</table>
 
 
 
