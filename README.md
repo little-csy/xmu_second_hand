@@ -1,27 +1,39 @@
-# XMU Campus Second-Hand Marketplace
-## Campus Second-Hand Trading Platform Based on WeChat Mini Program Cloud Development
+# Campus Secondhand Marketplace
 
-### Usage Instructions
+A WeChat Mini Program designed for students at **Xiamen University** to buy and sell secondhand items. It brings product listings, campus-based browsing, and order management into WeChat without requiring a separate app.
 
-#### 1. Enable the cloud environment, upload cloud functions, and install dependencies
-#### 2. Replace the cloud environment ID (env) in the configuration files and cloud functions with your own
-#### 3. Configure customer service and message subscriptions in the WeChat Official Platform
+## Features
 
-### Features
+- **User accounts:** register, log in, and manage campus and contact information.
+- **Sell items:** publish listings with descriptions, prices, categories, pickup options, and up to five images; edit, remove, or relist items.
+- **Browse and search:** explore listings by category or product name and view item and seller details.
+- **Manage transactions:** reserve items, review orders, cancel transactions, and confirm receipt and completion.
+- **Validation and notifications:** validate contact details, prevent users from buying their own listings, and request permission for transaction notifications.
 
-**（1）User Login & Registration**：Users can log in or register from the personal profile page of the Mini Program by filling in the required information. After registration, users can manage their personal accounts for buying and selling. User profile information can be updated at any time.
+## Technology
 
-**（2）Sell Products**：On the product publishing page, users can upload product images and fill in detailed information to list items for sale. Posted items and transaction details can be viewed on the personal profile page. Users can delete orders, relist items, or remove products as needed.
+| Layer | Technology |
+| --- | --- |
+| Client | WeChat Mini Program |
+| UI components | Vant |
+| Backend | WeChat Cloud Development and cloud functions |
+| Data storage | Cloud database |
 
-**（3）Browse Products**：On the marketplace homepage, users can browse products by category or search by product name. Clicking on a product opens the detail page, where full product information is displayed.
+The client handles browsing, publishing, profiles, and orders. Cloud functions handle user identification, data updates, transaction status, cancellations, and notifications.
 
-**（4）Purchase Products**：On the product detail page, buyers can click Buy Now to reserve an item. Purchase records can be viewed on the personal profile page. Buyers may cancel an order before completion or confirm receipt after the transaction is completed to finalize the purchase.
+## Database
 
-**（5）Contact Customer Support**：Users can contact customer support from the My Page for inquiries and feedback.
+- `user`: user profiles and contact information, associated with WeChat OpenID.
+- `publish`: product listings, seller details, and availability status.
+- `order`: buyer and seller references, transaction details, and order status.
 
-### Mini Program Preview
-The Mini Program has been released as a preview version. You can scan the QR code below to experience the application.
-![NH$$79R`DAH$SLLEU G)LG8](https://user-images.githubusercontent.com/73229305/220560712-ab70704a-e141-4666-a278-dd7e4a55626a.jpg)
+## Transaction Flow
+
+```text
+Publish item → Buyer reserves → Arrange exchange → Confirm receipt → Seller confirms → Complete
+```
+
+The original demo used a temporary cloud environment scheduled to expire on **March 7, 2023**. Running the project requires a configured WeChat Mini Program and cloud environment.
 
 
 ### (March 9) Notice Due to the cancellation of WeChat Cloud Service free quotas, the server resources for this project may be released.
